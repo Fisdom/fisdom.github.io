@@ -252,3 +252,483 @@
 .material-icons.prefix.input-focus.active{
 	color: color('red','base');
 }
+/* Text Inputs + Textarea
+   ========================================================================== */
+
+/* Style Placeholders */
+
+::placeholder {
+    color: $placeholder-text-color;
+  }
+  
+  /* Text inputs */
+  
+  input:not([type]),
+  input[type=text]:not(.browser-default),
+  input[type=password]:not(.browser-default),
+  input[type=email]:not(.browser-default),
+  input[type=url]:not(.browser-default),
+  input[type=time]:not(.browser-default),
+  input[type=date]:not(.browser-default),
+  input[type=datetime]:not(.browser-default),
+  input[type=datetime-local]:not(.browser-default),
+  input[type=tel]:not(.browser-default),
+  input[type=number]:not(.browser-default),
+  input[type=search]:not(.browser-default),
+  textarea.materialize-textarea {
+  
+    // General Styles
+    background-color: #fff;
+    border-top: 0 solid;
+    border: 1px solid $input-border-color;
+    border-radius: 3px;
+    outline: none;
+    height: $input-height;
+    width: 100%;
+    font-size: $input-font-size;
+    margin: $input-margin;
+    padding: $input-padding;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: $input-transition;
+  
+  
+    & + label{
+      transform: translateY(4px) translateX(10px)  !important;
+      transform-origin: 0 0 !important;
+    }
+    &:focus{
+      background-color: color('grey', 'lighten-5');
+    }
+  }
+  
+  
+  
+  /* Validation Sass Placeholders */
+  %valid-input-style {
+    border-bottom: 1px solid $input-success-color;
+    box-shadow: 0 1px 0 0 $input-success-color;
+  }
+  %invalid-input-style {
+    border-bottom: $input-invalid-border;
+    box-shadow: 0 1px 0 0 $input-error-color;
+  }
+  %custom-success-message {
+    content: attr(data-success);
+    color: $input-success-color;
+    opacity: 1;
+    transform: translateY(9px);
+  }
+  %custom-error-message {
+    content: attr(data-error);
+    color: $input-error-color;
+    opacity: 1;
+    transform: translateY(9px);
+  }
+  %input-after-style {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transition: .2s opacity ease-out, .2s color ease-out;
+  }
+  
+  .input-field.col label {
+    left: 0rem !important;
+  }
+  
+  // Styling for input field wrapper
+  .input-field {
+    // Inline styles
+    &.inline {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 5px;
+  
+      input,
+      .select-dropdown {
+        margin-bottom: 1rem;
+      }
+    }
+  
+    // Gutter spacing
+    &.col {
+      label {
+        left: $gutter-width / 2;
+      }
+  
+      .prefix ~ label,
+      .prefix ~ .validate ~ label {
+        width: calc(100% - 3rem - #{$gutter-width});
+      }
+    }
+  
+    position: relative;
+    margin-top: 0rem;
+  
+    label {
+      color: $input-border-color;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      font-size: 1rem;
+      cursor: text;
+      transition: transform .2s ease-out;
+      transform-origin: 0% 100%;
+      text-align: initial;
+      transform: translateY(12px);
+      pointer-events: none;
+      font-weight: 600;
+  
+      &:not(.label-icon).active {
+        transform: auto;
+        transform-origin: 0 0;
+      }
+    }
+  
+    // Prefix Icons
+    .prefix {
+      position: absolute;
+      width: $input-height;
+      font-size: 2rem;
+      transition: color .2s;
+  
+      &.active { color: $input-focus-color; }
+    }
+  
+    .prefix ~ input,
+    .prefix ~ textarea,
+    .prefix ~ label,
+    .prefix ~ .validate ~ label,
+    .prefix ~ .autocomplete-content {
+      margin-left: 0;
+      width: 92%;
+      // width: calc(100% - 3rem);
+      width: 100%;
+      position: absolute;
+    }
+  
+    .prefix ~ label { margin-left: 3rem; }
+  
+    @media #{$medium-and-down} {
+      .prefix ~ input {
+        width: 86%;
+        width: calc(100% - 3rem);
+      }
+    }
+  
+    @media #{$small-and-down} {
+      .prefix ~ input {
+        width: 80%;
+        width: calc(100% - 3rem);
+      }
+    }
+  }
+  
+  
+  /* Search Field */
+  
+  .input-field input[type=search] {
+    display: block;
+    line-height: inherit;
+  
+    .nav-wrapper & {
+      height: inherit;
+      padding-left: 4rem;
+      width: calc(100% - 4rem);
+      border: 0;
+      box-shadow: none;
+    }
+  
+    &:focus {
+      background-color: $input-background;
+      border: 0;
+      box-shadow: none;
+      color: #444;
+  
+      & + label i,
+      & ~ .mdi-navigation-close,
+      & ~ .material-icons {
+        color: #444;
+      }
+    }
+  
+    & + label {
+      left: 1rem;
+    }
+  
+    & ~ .mdi-navigation-close,
+    & ~ .material-icons {
+      position: absolute;
+      top: 0;
+      right: 1rem;
+      color: transparent;
+      cursor: pointer;
+      font-size: 2rem;
+      transition: .3s color;
+    }
+  }
+  
+  
+  /* Textarea */
+  
+  // Default textarea
+  textarea {
+    width: 100%;
+    height: $input-height;
+    background-color: transparent;
+  
+    &.materialize-textarea {
+      // Fixes validation messages for dynamic textareas
+      &.validate + label {
+        &::after {
+          top: calc(100% - 12px);
+        }
+        &:not(.label-icon).active {
+          transform: translateY(-25px);
+        }
+        height: 100%;
+      }
+  
+      overflow-y: hidden; /* prevents scroll bar flash */
+      padding: .8rem 0 1.6rem 0; /* prevents text jump on Enter keypress */
+      resize: none;
+      min-height: $input-height;
+    }
+  }
+  
+  // For textarea autoresize
+  .hiddendiv {
+    display: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word; /* future version of deprecated 'word-wrap' */
+    padding-top: 1.2rem; /* prevents text jump on Enter keypress */
+  
+    // Reduces repaints
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  /* Autocomplete */
+  .autocomplete-content {
+    margin-top: -1 * $input-margin-bottom;
+    margin-bottom: $input-margin-bottom;
+    display: block;
+    opacity: 1;
+    position: static;
+  
+    li {
+      .highlight { color: #444; }
+  
+      img {
+        height: $dropdown-item-height - 10;
+        width: $dropdown-item-height - 10;
+        margin: 5px 15px;
+      }
+    }
+  }
+  
+  /* Select Field
+     ========================================================================== */
+  
+  select { display: none; }
+  select.browser-default { display: block; }
+  
+  select {
+    background-color: $select-background;
+    width: 100%;
+    padding: $select-padding;
+    border: $select-border;
+    border-radius: $select-radius;
+    height: $input-height;
+  }
+  
+  
+  .input-field {
+    & > select {
+      display: block;
+      position: absolute;
+      width: 0;
+      pointer-events: none;
+      height: 0;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+  }
+  
+  .select-label {
+    position: absolute;
+  }
+  
+  .select-wrapper {
+    &.valid {
+      & > input.select-dropdown {
+        @extend %valid-input-style;
+      }
+  
+      & + label:after {
+        @extend %custom-success-message;
+      }
+    }
+  
+    &.invalid {
+      & > input.select-dropdown {
+        @extend %invalid-input-style;
+      }
+  
+      & + label:after {
+        @extend %custom-error-message;
+      }
+    }
+  
+    &.valid + label,
+    &.invalid + label {
+      width: 100%;
+      pointer-events: none;
+    }
+  
+    & + label:after {
+      @extend %input-after-style;
+    }
+  
+    position: relative;
+  
+    input.select-dropdown {
+      position: relative;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      border: $input-border;
+      outline: none;
+      height: $input-height;
+      line-height: $input-height;
+      width: 100%;
+      font-size: $input-font-size;
+      margin: $input-margin;
+      padding: 0 10px 0 10px;
+      display: block;
+      user-select:none;
+    }
+  
+    span.caret {
+      color: initial;
+      position: absolute;
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      height: 10px;
+      margin: auto 0;
+      font-size: 10px;
+      line-height: 10px;
+    }
+  
+    & + label {
+      position: absolute;
+      top: -26px;
+      font-size: $label-font-size;
+    }
+  }
+  
+  // Disabled styles
+  select:disabled {
+    color: $input-disabled-color;
+  }
+  
+  .select-wrapper.disabled {
+    span.caret,
+    & + label {
+      color: $input-disabled-color;
+    }
+  }
+  
+  .select-wrapper input.select-dropdown:disabled {
+    color: $input-disabled-color;
+    cursor: default;
+    user-select: none;
+  }
+  
+  .select-wrapper i {
+    color: $select-disabled-color;
+  }
+  
+  .select-dropdown li.disabled,
+  .select-dropdown li.disabled > span,
+  .select-dropdown li.optgroup {
+    color: $select-disabled-color;
+    background-color: transparent;
+  }
+  
+  .select-dropdown.dropdown-content {
+    li {
+      &.active {
+        background-color: transparent;
+      }
+  
+      &:hover {
+        background-color: $select-option-hover;
+      }
+  
+      &.selected {
+        background-color: $select-option-focus;
+      }
+    }
+  }
+  
+  // Prefix Icons
+  .prefix ~ .select-wrapper {
+    margin-left: 3rem;
+    width: 92%;
+    width: calc(100% - 3rem);
+  }
+  
+  .prefix ~ label { margin-left: 3rem; }
+  
+  .select-wrapper input.select-dropdown {
+    border: 1px solid $input-border-color;
+    padding:0 7px;
+  }
+  input[type=text]:not(.browser-default):disabled{
+    border: 1px dotted rgba(0, 0, 0, 0.26);
+  }
+  .select-wrapper span.caret{
+    right: 13px;
+    top: 7px;
+  }
+  // Icons
+  .select-dropdown li {
+    img {
+      height: $dropdown-item-height - 10;
+      width: $dropdown-item-height - 10;
+      margin: 5px 15px;
+      float: right;
+    }
+  }
+  
+  // Optgroup styles
+  .select-dropdown li.optgroup {
+    border-top: 1px solid $dropdown-hover-bg-color;
+  
+    &.selected > span {
+      color: rgba(0, 0, 0, .7);
+    }
+  
+    & > span {
+      color: rgba(0, 0, 0, .4);
+    }
+  
+    & ~ li.optgroup-option {
+      padding-left: 1rem;
+    }
+  }
+  
+  [placeholder]:focus::-webkit-input-placeholder {
+    transition: opacity 0.5s 0.5s ease; 
+    opacity: 0;
+  }
+  

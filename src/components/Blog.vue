@@ -1,5 +1,5 @@
 <template>
-  <main :class="{ 'blog--reading': this.post }" style="padding: 4em;">
+  <main :class="{ 'blog--reading': this.post }" class="resume-container">
     <div class="row center-align pbm-s">
       <div class="h2"><span class="border-thick">Blog</span></div>
     </div>

@@ -38,7 +38,7 @@ $primary-color: color("purple", "darken-2") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("red", "base") !default;
+$secondary-color: color("green", "base") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
 $link-color: color("indigo", "base") !default;
@@ -156,7 +156,7 @@ $dropdown-item-height: 50px !default;
 // ==========================================================================
 
 // Text Inputs + Textarea
-$input-height: 3rem !default;
+$input-height: 3.5rem !default;
 $input-border-color: color("grey", "base") !default;
 $input-border: 1px solid $input-border-color !default;
 $input-background: #fff !default;
@@ -166,7 +166,7 @@ $input-focus-color: $secondary-color !default;
 $input-font-size: 1rem !default;
 $input-margin-bottom: 8px;
 $input-margin: 0 0 $input-margin-bottom 0 !default;
-$input-padding: 0 !default;
+$input-padding: 15px 10px 0px 10px !default;
 $input-transition: all .3s !default;
 $label-font-size: .8rem !default;
 $input-disabled-color: rgba(0,0,0, .42) !default;

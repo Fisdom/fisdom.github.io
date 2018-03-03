@@ -1,12 +1,12 @@
 <template>
-  <transition-group tag="ul" :name="transition"  class="blog__feed">
-    <div v-for="post in feed" class="row" :key="post.id">
-      <div class="mtm-s mbm-s">
-        <router-link :to="`/read/${post.id}`" @click.native="scrollTo(0, 220, scrollDelay)">
+  <transition-group tag="div" name="list"  class="blog__feed">
+    <div v-for="post in feed" class="row fadeInDown" :key="post.id">
+      <div class="mtm-s mbm-s" >
+        <router-link :to="`/read/${post.id}`" @click.native="scrollTo(280, 520, scrollDelay)">
           <div class="post-img" :style="getBgImg(post.image)">
           </div>
         </router-link>
-        <div class="row mtm-s">
+        <div class="post-excerpt row mtm-s">
           <router-link class="row title-font h2 black-text"
               :to="`/read/${post.id}`"
               @click.native="scrollTo(0, 220, scrollDelay)">
@@ -15,6 +15,7 @@
           <time class="row preview__published">
             {{ prettyDate(post.published) }}
           </time>
+          <p>{{ post.description}}</p>
           <!-- <router-link class="preview__author"
             :to="`/by/${kebabify(post.author)}`"
             @click.native="scrollTo(0, 220, scrollDelay)">
@@ -88,6 +89,10 @@ export default {
       }
 
       interval = setInterval(stack, 125)
+    },
+    scrollMid() {
+      // window.scrollTo(0, document.body.scrollHeight);
+      console.log('shit happened')
     }
   },
 

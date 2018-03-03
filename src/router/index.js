@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Blog from '../components'
 import Resume from '../components/Resume'
 import About from '../components/About'
+import Contact from '../components/Contact'
 
 Vue.use(Router)
 
@@ -31,5 +32,9 @@ export default new Router({
     path: '/about',
     name: 'about',
     component: About
+  }, {
+    path: '/contact',
+    name: 'contact',
+    component: Contact
   }]
 })

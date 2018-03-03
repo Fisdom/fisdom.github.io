@@ -1,5 +1,5 @@
 <template>
-  <transition name="post">
+  <transition name="fade">
     <article v-if="post" class="post">
       <header class="post__header">
         <blockquote class="post__subtitle">{{ description }}</blockquote>
