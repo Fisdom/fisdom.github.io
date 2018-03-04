@@ -12,8 +12,8 @@ export default new Router({
   linkActiveClass: 'active',
   routes: [{
     path: '/',
-    name: 'feed',
-    component: Blog
+    name: 'resume',
+    component: Resume
   }, {
     path: '/by/:author',
     name: 'author',
@@ -24,10 +24,6 @@ export default new Router({
     name: 'post',
     props: true,
     component: Blog
-  }, {
-    path: '/resume',
-    name: 'resume',
-    component: Resume
   }, {
     path: '/about',
     name: 'about',

@@ -9,145 +9,141 @@
           <div class="h2 title-font"><u class="title-underline">Experience</u></div>
           <div class="row mtl-s">
             <div class="row">
-              <div class="h3 title-font">Front-End Engineer/ Designer</div>
+              <div class="h3 title-font">Director of Search Marketing</div>
             </div>
             <div class="row">
               <div class="col m6 omega left-align">
                 <span class="h5 ">Local Staffing LLC.</span>
               </div>
               <div class="col m6 omega right-align">
-                <span class="h5 ">05/2015 - present</span>
+                <span class="h5 ">02/2017 - present</span>
               </div>
             </div>
             <div class="row mts-s">
-              <p class="h5">Since the inception of the company I provided the entire front-end development for the numerous projects that were deployed live to thousands of daily users. At Local Staffing we created many profitable web apps, that were all planned and developed in house. My role involved:</p>
               <ul class="classic-list">
-                <li>Design and Markup landing pages, User Interface, Email Design</li>
-                <li>Implementing tracking applications such as google analytics and piwik</li>
-                <li>Devloping a CSS/SCSS Design pattern for rapid app creation</li>
-                <li>Writing reusable Javascript modules to be used across our many apps </li>
-                <li>Implemented ajax modules for displaying data from numerous API's</li>
-                <li>Optimizing site speed (css purge, image optim, CDN delivery, browser cache)</li>
-                <li>A/B and multivariate testing based on conditions such as traffic source, device viewport, and weighted percentage of traffic</li>
-                <li>Devising growth hacking strategies to increase conversion rates, and find new ways to increase revenue</li>
-                <li>Consistenly worked with backend engineers to implement proper data structures</li>
-                <li>Ensured Browser compatibility, and streamlined workflows using Gulp and Webpack</li>
-                <li>Provided proper version control with GIT</li>
-                <li>Moving really fast</li>
+                <li>Led search marketing efforts in order to scale multiple web applications while driving an improvement on ROI.</li>
+                <li>Identified, tested, and scaled emerging and high-impact digital channels that facilitated goal achievements. </li>
+                <li>Led the development of creative, ad copy, and landing pages, which increased their specificity and impact through continuous testing and assessment. </li>
+                <li>Communicated with CTO, front-end and back end developers on improvements on application and landing pages in order to reach KPIs set in place. </li>
+                <li>Drove SEM performance through search term analysis, A/B testing, keyword research, ad copy analysis and landing page optimizations. </li>
               </ul>
-              <div class="row">
-                <div class="chip">
-                  Rocket Jobs
-                </div>
-                <div class="chip">
-                  Template Legal
-                </div>
-                <div class="chip">
-                  ETH Sign
-                </div>
-                <div class="chip">
-                  Online Resume Builders
-                </div>
+              <h5 class="tw-bold">Online Resume Builders™</h5>
+              <ul class="classic-list">
+                <li>Decreased CPA by 24% which lead to $35k/month in savings while increasing sales by 12%. </li>
+              </ul>
+              <h5 class="tw-bold">Template Legal™</h5>
+              <ul class="classic-list">
+                <li>Lowered CPA by 64% and increased sales by 525% in a month. </li>
+              </ul>
+              <h5 class="tw-bold">Rocket Jobs™</h5>
+              <ul class="classic-list">
+                <li>Increased conversion rates by 32% by optimizing landing pages through multivariate testing tools like Visual Website Optimization.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mtl-s">
+            <div class="row">
+              <div class="h3 title-font">SEM/SEO Specialist</div>
+            </div>
+            <div class="row">
+              <div class="col m6 omega left-align">
+                <span class="h5 ">Worldmedia Interactive </span>
               </div>
+              <div class="col m6 omega right-align">
+                <span class="h5 ">Feb. 2016 – Present</span>
+              </div>
+            </div>
+            <div class="row mts-s">
+              <ul class="classic-list">
+                <li>Manage SEM/SEO accounts for Hawaii clients and Asian markets for Enterprise Ltd.</li>
+                <li>Manage over $150k monthly budgets, drive performance based on ROI, and conduct daily/weekly optimizations based on SEM best practices:  search term analysis, A/B testing, keyword research, keyword management, keyword bidding, ad copy writing and landing page optimization.</li>
+                <li>Conduct weekly meetings with clients to report on WoW, MoM and YoY performance. </li>
+                <li>Work with junior level SEM specialist to assist with QA and daily tasks. </li>
+                <li>Improved SEM performance for client by increasing revenue by 35% YoY which led to client increasing their SEM budget by $1 million for the following year.  </li>
+                <li>Led Asian SEM market expansion for client by conducting research, creating campaign structure and ad copy with help of translators, and initiated account activation with Baidu and Yahoo Japan representatives.   </li>
+                <li>Create/manage SEO action plans for clients by conducting site audits, creating roadmaps for on-site optimization, link building, keyword research targeting competitive keywords and site architecture.</li>
+                <li>Create reports on MoM SEO performance based on keyword rankings, organic traffic, and revenue. </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mtl-s">
+            <div class="row">
+              <div class="h3 title-font">SEM Specialist</div>
+            </div>
+            <div class="row">
+              <div class="col m6 omega left-align">
+                <span class="h5 ">Showroom Logic</span>
+              </div>
+              <div class="col m6 omega right-align">
+                <span class="h5 ">June 2013 – Feb. 2016</span>
+              </div>
+            </div>
+            <div class="row mts-s">
+              <ul class="classic-list">
+                <li>o	Construct, manage and optimize PPC advertising campaigns for national client groups: Berkshire Hathaway Automotive, Hendrick Automotive Group, AMSI, Sheehy Auto Sores, Hendrick Automotive, Larry H Miller Group and Lithia Motors.  </li>
+                <li>o	Effectively manage over $400K a month in AdWords and Bing.</li>
+                <li>o	Analyze and interpret data and trends in Google Analytics to deliver top performance. </li>
+                <li>Developed new efficient strategies in managing account budgets for the national team</li>
+                <li>Trained and taught new employees on SEM best practices in Google AdWords and Yahoo-Bing.</li>
+                <li>Leverage marketing trends to capitalize on client goals. </li>
+                <li>Provide thorough analysis on key metrics to improve lead conversions and to lower CPL. </li>
+                <li>Work in a team of top digital marketing analysts and develop strategies to meet client needs. </li>
+                <li>Report to director of digital strategy with suggestions and data analysis.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mtl-s">
+            <div class="row">
+              <div class="h3 title-font">Research Scientist</div>
+            </div>
+            <div class="row">
+              <div class="col m6 omega left-align">
+                <span class="h5 ">University Of Florida, Department of Molecular Genetics and Microbiology; College of Medicine</span>
+              </div>
+              <div class="col m6 omega right-align">
+                <span class="h5 ">June 2013 – Feb. 2016</span>
+              </div>
+            </div>
+            <div class="row mts-s">
+              <ul class="classic-list">
+                <li>Conducted independent research by using phage-display(M13 phages with recombinant scFv proteins attached to the tips of their p3 proteins) to isolate portions of antibodies(scFv) that may show specificity to Cryptosporidium parvum oocysts, which the army could then use to check if a sample of water is infected with such parasitic eggs(oocysts) by simply having a tube coated with these specific antibodies, dropping a sample of water in it, and then running it through a laser.</li>
+                <li>Amplified and determined statistical diversity and storage of two libraries received from our partners: Human Auto Immune scFv and FN3 (fibronectin) libraries.  </li>
+                <li>Taught undergraduate student microbiological techniques, educated them on phage display and laboratory best practices. </li>
+                <li>Reported to Principal Investigator on a weekly basis to present results, data and hypothesis for future experiments. </li>
+                
+              </ul>
             </div>
           </div>
         </div>
-        <div class="row mtm-s">
-          <div class="h2 title-font"><u class="title-underline">Awards & Achievements</u></div>
-          <div class="row mtl-s">
-            <div class="row">
-              <div class="h3 title-font">Participant - U3: Universal Users Union</div>
-            </div>
-            <div class="row">
-              <div class="col m6 omega left-align">
-                <span class="h5 ">ETH Denver</span>
-              </div>
-              <div class="col m6 omega right-align">
-                <span class="h5 ">02/2018 </span>
-              </div>
-            </div>
-            <div class="row mts-s">
-              
-              <p class="h5">U3 is a blockchain app that organizes and unites users to a common goal. For the purpose of this project we felt Facebook has too much control over the social lives of humanity and it is slowly destroying our core social fabric of human communication. We decided to create a chrome extension and app that would allow users to go on strike against facebook by disabling their access to their app or site and returning access after the strike is over. I'm really proud of this project because I got a lot of hands on experience writing, compiling, and deploying a solidity contract. My role included: </p>
+        <div class="row mtl-s">
+          <div class="col s12 m6">
+            <div class="h2 title-font"><u class="title-underline">SEM Skills</u></div>
+            <div class="row mtl-s">
               <ul class="classic-list">
-                <li>Scaffolding the project with Vue.Js, Truffle, and Web3</li>
-                <li>Peer programming to write the solidity contract, deploying and writing the wrapper that communicates with metamask</li>
-                <li>Writing the extension that would inject web3 into any page in the browser to communicate with metamask outside the app. (I went crazy doing this part)</li>
-              </ul>
-              <ol>
-                <li><a href="https://devpost.com/software/strike-back"> https://devpost.com/software/strike-back/</a></li>
-              </ol>
-              
+                  <li>Microsoft Office</li>
+                  <li>SEM: Google AdWords, Microsoft Bing Ads, Baidu, Yahoo Gemini, Yahoo Japan</li>
+                  <li>Google Analytics</li>
+                  <li>DoubleClick</li>
+                  <li>Google Search Console</li>
+                  <li>SEO</li>
+                  <li>Facebook/Instagram PPC</li>
+                  <li>A/B Testing </li>
+                  <li>Ad Copywriting </li>
+                  <li>Lead Generation/ROI Campaigns</li>
+                </ul>
             </div>
           </div>
-          <div class="row mtm-s">
+          <div class="col s12 m6">
             <div class="row">
-              <div class="h3 title-font">Winner - TrustUs</div>
-            </div>
-            <div class="row">
-              <div class="col m6 omega left-align">
-                <span class="h5 ">ETH Waterloo</span>
+              <div class="h2 title-font"><u class="title-underline">Certifications</u></div>
+              <div class="row mtl-s">
+                <ul class="classic-list">
+                    <li>Google Search Certified</li>
+                    <li>Google Display Certified</li>
+                    <li>Mobile Certified</li>
+                    <li>Bing Certified</li>
+                  </ul>
               </div>
-              <div class="col m6 omega right-align">
-                <span class="h5 ">11/2017 </span>
-              </div>
-            </div>
-            <div class="row mts-s">
-              
-              <p class="h5">TrustUs is a legal contract builder that leverages the ethereum blockchain to secure, verify, and execute actions with smart contracts. Our app was entirely front-end and utilized Metamask for communicating with web3. Users would choose a template and build out a particular contract and finalize by pushing a smart contract version of the contract on to the blockchain. My role was to:</p>
-              <ul class="classic-list">
-                <li>Design and mockup the concept in Sketch</li>
-                <li>Implement the builder using react</li>
-                <li>Create an SVG animation for the homepage</li>
-              </ul>
-              <ol>
-                <li><a href="https://devpost.com/software/ethcontractbuilder"> https://devpost.com/</a></li>
-              </ol>
-              
-            </div>
-          </div>
-          <div class="row mtm-s">
-            <div class="row">
-              <div class="h3 title-font">1st Place - Zimple</div>
-            </div>
-            <div class="row">
-              <div class="col m6 omega left-align">
-                <span class="h5 ">Emerge Americas Hackathon</span>
-              </div>
-              <div class="col m6 omega right-align">
-                <span class="h5 ">04/2016 </span>
-              </div>
-            </div>
-            <div class="row mts-s">
-              
-              <p class="h5">For this project me and my team built a Financial Literacy app for kids. In essence we utilized the new Visa Credit Card API and issue an account a debit account for the child in which the parent could monitor the childs transactions, as well as deposit allowances. </p>
-              <ul class="classic-list">
-                <li>Design and Markup landing pages, User Interface, Email Design</li>
-                <li>Implementing tracking applications such as google analytics and piwik</li>
-                <li>Devloping a CSS/SCSS Design pattern for rapid app creation</li>
-              </ul>
-              <ol>
-                <li><a class="h6" href="http://www.miamiherald.com/news/business/technology/article72730332.html"> http://www.miamiherald.com/</a></li>
-              </ol>
-              
-            </div>
-          </div>
-          <div class="row mtm-s">
-            <div class="row">
-              <div class="h3 title-font">2nd Place - Digital Media Undergraduate Showcase</div>
-            </div>
-            <div class="row">
-              <div class="col m6 omega left-align">
-                <span class="h5 ">University of Central Florida</span>
-              </div>
-              <div class="col m6 omega right-align">
-                <span class="h5 ">05/2014 </span>
-              </div>
-            </div>
-            <div class="row mts-s">
-              <p class="h5">I entered Digital Trends - Your Digital Audio Newspaper. The project was built as a JavaScript application that connected to the NPR api using AJAX and depending on the topic of choice that was selected by the user, a feed of recent "audio" articles would be presented. Users would be able to view a thumbnail of the audio article, control the audio broadcast and read a brief description. The purpose of the application was so that users could control on demand their daily auditory news broadcast, by being able to pick and choose the topics they wished to listen to. The site was made responsive allowing the user to use the site across all their devices.</p>
-              
-              
             </div>
           </div>
         </div>
@@ -155,30 +151,9 @@
           <div class="h2 title-font"><u class="title-underline">Education</u></div>
           <div class="row mtl-s">
             <div class="row">
-              <div class="h3 title-font">Bachelor's in Digital Media: Web Design</div>
-            </div>
-            <div class="row">
-              <div class="col m6 omega left-align">
-                <span class="h5 ">University of Central Florida</span>
-              </div>
-              <div class="col m6 omega right-align">
-                <span class="h5 ">09/2011 - 05/2015</span>
-              </div>
-            </div>
-            <div class="row mts-s">
-              <p class="h5">As a student of the Digital Media: Web Design Program, I learned and refined many of the skills I currently use in web development and design. Topics that were covered across my academic career include: </p>
-              <ul class="classic-list">
-                <li>Responsive Web Design</li>
-                <li>User Experience Design</li>
-                <li>AGILE Application development</li>
-                <li>Data based applications with API's</li>
-                <li>User Centered Design</li>
-                <li>Digital Story Telling</li>
-                <li>Databases</li>
-                <li>SEO</li>
-                <li>E-commerce development and E-business.</li>
-              </ul>
-              <p class="h5">Design and aesthetics were a component to my education, that has enhanced my work in web development. My design's are user focused, and are built for simple intuitive interactions.</p>
+              <div class="h3 title-font">B.S. Microbiology and Cell Science</div>
+              <h4 class="tw-bold">Minor in Chemistry</h4>
+              <h4>GPA: 3.9/4.0</h4>
             </div>
           </div>
         </div>
